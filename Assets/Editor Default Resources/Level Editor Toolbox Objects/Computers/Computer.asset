@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43636e0a1655aff4b8ef439f1ed215df, type: 3}
+  m_Name: Computer
+  m_EditorClassIdentifier: 
+  levelEditorObject: {fileID: 8888238819827546986, guid: 0b9d5e57c9ff93b43a311781a67ca7b7, type: 3}
+  objectOffset: {x: 0, y: 0.55, z: 0}
+  levelEditorObjectSize: {x: 1.1875, y: 1.25}
+  levelEditorObjectName: 
+  tags:
+  - Computer
