@@ -13,6 +13,7 @@ public class PopUpPrompt : MonoBehaviour
     [SerializeField] private PlayerInput playerInput = null;
 
     [Header("Building Block References")]
+    [SerializeField] private Computer _computer;
     [SerializeField] private PopUpPrompt_Effects _dialoguePrompt_Effects;
 
     [Header("Tags")]
@@ -53,7 +54,7 @@ public class PopUpPrompt : MonoBehaviour
 
     private void OnInteractPerformed(InputAction.CallbackContext value)
     {
-
+        _computer.OnInteract();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

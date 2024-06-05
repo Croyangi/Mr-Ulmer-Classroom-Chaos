@@ -69,4 +69,9 @@ public class Handler_MainMenu : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void OpenLink()
+    {
+        Application.OpenURL("https://discord.gg/DVh5eCWNfs");
+    }
 }
